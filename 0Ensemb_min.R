@@ -31,7 +31,6 @@ bss<-function(data,fn,p){
 library("kernlab")
 
 #library("R.matlab")
-#setwd("C:/360/SameStep/ResearchD/Paper/ExpertSystempaper/ExpertSystemCode")
 # data <- readMat("SVMDATA1412.mat")
 # nfac=30
 # w<-data$WisDdata30
