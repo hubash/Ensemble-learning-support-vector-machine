@@ -19,7 +19,6 @@ bss<-function(data,fn,p){
 }
 
 
-#setwd("C:/360/SameStep/ResearchD/Paper/ExpertSystempaper/ExpertSystemCode")
 
 
 library("kernlab")
