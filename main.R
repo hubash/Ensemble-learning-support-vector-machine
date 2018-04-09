@@ -1,21 +1,21 @@
 rm(list=ls (all= TRUE) ) 
 
-setwd("D:/GoogleDrive/HF Research On-going/Paper Collection/2016 July EJOR Submission/Ensemble SVM Code/Code_4/Code_4")
+setwd("*****")
 
 Ncv=10
 nrep=5
-dataflag='SEER'
-if(dataflag=='SEER'){
-  data <- read.csv(file="SEER19732014.csv", header=TRUE, sep=",")}else{library("R.matlab")  
-    data <- readMat("SVMDATA1412.mat")}
+#dataflag='SEER'
+#if(dataflag=='SEER'){
+#  data <- read.csv(file="SEER19732014.csv", header=TRUE, sep=",")}else{library("R.matlab")  
+#    data <- readMat("SVMDATA1412.mat")}
 
-balance_flag='Out'
+#balance_flag='Out'
 #  Breast Cancer Wisconsin (Diagnostic) 569 (wdbc) 1995
 
-#w<-data$WisDdata30
-#nfac=30
-#range01 <- function(x){(x-min(x))/(max(x)-min(x))}
-#for(i in 1:nfac){w[,i]=range01(w[,i])}
+w<-data$WisDdata30
+nfac=30
+range01 <- function(x){(x-min(x))/(max(x)-min(x))}
+for(i in 1:nfac){w[,i]=range01(w[,i])}
 ###
 
 #nx=22
